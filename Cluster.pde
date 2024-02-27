@@ -2,7 +2,6 @@ public class Cluster {
     public final static int NUM_STEMS = 7; //number of tendrils per cluster
 
     public Cluster(int len, int x, int y) {
-{
   double baseAngle = 2 * Math.PI / 7.0;
   Tendril lines0 = new Tendril(len, 0, x, y);
   lines0.show();
@@ -18,6 +17,5 @@ public class Cluster {
   lines5.show();
   Tendril lines6 = new Tendril(len, 6 * baseAngle, x, y);
   lines6.show();
-}
 }
 }
