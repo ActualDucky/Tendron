@@ -22,13 +22,13 @@ class Tendril
     int startX = myX;
     int startY = myY;
     if (myNumSegments >= 100) {
-      stroke(5, 223, 227);
+      stroke(146, 48, 64);
     } else if (myNumSegments >= 30) {
-      stroke(3, 44, 252);
+      stroke(11, 3, 255);
     } else if (myNumSegments >= 10) {
-      stroke(148, 0, 189);
+      stroke(211, 233, 16);
     } else {
-      stroke(242, 29, 207);
+      stroke(169, 201, 12);
     }
     for (int i = 0; i < myNumSegments; i++) {
       myAngle += Math.random() * 0.4 - 0.2;
